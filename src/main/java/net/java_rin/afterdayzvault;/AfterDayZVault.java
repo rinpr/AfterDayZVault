@@ -1,4 +1,4 @@
-package net.java_rin.AfterDayZVault;
+package net.java_rin.afterdayzvault;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
