@@ -1,0 +1,8 @@
+{
+  "parent": "afterdayzvault:block/orientable",
+  "textures": {
+    "front": "afterdayzvault:block/vault_block_front",
+    "side": "afterdayzvault:block/vault_block_side",
+    "top": "afterdayzvault:block/vault_block_top"
+  }
+}
