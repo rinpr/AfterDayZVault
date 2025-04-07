@@ -1,4 +1,4 @@
-package net.java_rin.afterdayzvault.init;
+package net.java_rin.afterdayzvault.addon;
 
 import net.java_rin.afterdayzvault.objects.blocks.BlockBase;
 import net.minecraft.block.Block;
@@ -8,7 +8,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BlockInit {
+public class BlockRegistry {
 
     public static final List<Block> BLOCKS = new ArrayList<Block>();
 

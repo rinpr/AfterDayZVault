@@ -1,8 +1,8 @@
 package net.java_rin.afterdayzvault.objects.blocks;
 
 import net.java_rin.afterdayzvault.AfterDayZVault;
-import net.java_rin.afterdayzvault.init.BlockInit;
-import net.java_rin.afterdayzvault.init.ItemInit;
+import net.java_rin.afterdayzvault.addon.BlockRegistry;
+import net.java_rin.afterdayzvault.addon.ItemRegistry;
 import net.java_rin.afterdayzvault.util.ItemModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -18,8 +18,8 @@ public class BlockBase extends Block implements ItemModel {
         setRegistryName(name);
         setCreativeTab(tab);
 
-        BlockInit.BLOCKS.add(this);
-        ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        BlockRegistry.BLOCKS.add(this);
+        ItemRegistry.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
     public BlockBase(String name, Material material, CreativeTabs tab, float hardness, float resistance) {
@@ -30,8 +30,8 @@ public class BlockBase extends Block implements ItemModel {
         setHardness(hardness);
         setResistance(resistance);
 
-        BlockInit.BLOCKS.add(this);
-        ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        BlockRegistry.BLOCKS.add(this);
+        ItemRegistry.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
     @Override

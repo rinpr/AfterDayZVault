@@ -1,7 +1,7 @@
 package net.java_rin.afterdayzvault.objects.items;
 
 import net.java_rin.afterdayzvault.AfterDayZVault;
-import net.java_rin.afterdayzvault.init.ItemInit;
+import net.java_rin.afterdayzvault.addon.ItemRegistry;
 import net.java_rin.afterdayzvault.util.ItemModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -13,7 +13,7 @@ public class ItemBase extends Item implements ItemModel {
         this.setRegistryName(name);
         this.setCreativeTab(tabs);
 
-        ItemInit.ITEMS.add(this);
+        ItemRegistry.ITEMS.add(this);
     }
 
     @Override

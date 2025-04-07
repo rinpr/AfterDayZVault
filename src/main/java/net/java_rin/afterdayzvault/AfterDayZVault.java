@@ -1,6 +1,6 @@
 package net.java_rin.afterdayzvault;
 
-import net.java_rin.afterdayzvault.proxy.CommonProxy;
+import net.java_rin.afterdayzvault.proxy.IProxy;
 import net.java_rin.afterdayzvault.util.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -19,7 +19,7 @@ public class AfterDayZVault {
     public static final Logger LOGGER = LogManager.getLogger(Tags.MOD_NAME);
 
     @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
-    public static CommonProxy proxy;
+    public static IProxy proxy;
 
     /**
      * <a href="https://cleanroommc.com/wiki/forge-mod-development/event#overview">
