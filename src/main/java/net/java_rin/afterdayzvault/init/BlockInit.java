@@ -13,5 +13,5 @@ public class BlockInit {
     public static final List<Block> BLOCKS = new ArrayList<Block>();
 
     public static final Block COPPER_BLOCK = new BlockBase("copper_block", Material.IRON, CreativeTabs.BUILDING_BLOCKS, 3L, 6L);
-    public static final Block VAULT_BLOCK = new BlockBase("vault_block", Material.IRON, CreativeTabs.BUILDING_BLOCKS, 10L, 18L);
+    public static final Block VAULT_BLOCK = new BlockBase("vault_block", Material.IRON, CreativeTabs.BUILDING_BLOCKS, 35L, 45L);
 }

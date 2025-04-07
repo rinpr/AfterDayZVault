@@ -1,5 +1,5 @@
 {
-  "parent": "afterdayzvault:block/orientable",
+  "parent": "minecraft:block/orientable",
   "textures": {
     "front": "afterdayzvault:block/vault_block_front",
     "side": "afterdayzvault:block/vault_block_side",
