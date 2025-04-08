@@ -10,9 +10,9 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class BlockBase extends Block implements ItemModel {
+public class SimpleBlock extends Block implements ItemModel {
 
-    public BlockBase(String name, Material material, CreativeTabs tab) {
+    public SimpleBlock(String name, Material material, CreativeTabs tab) {
         super(material);
         setTranslationKey(name);
         setRegistryName(name);
@@ -22,7 +22,7 @@ public class BlockBase extends Block implements ItemModel {
         ItemRegistry.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
-    public BlockBase(String name, Material material, CreativeTabs tab, float hardness, float resistance) {
+    public SimpleBlock(String name, Material material, CreativeTabs tab, float hardness, float resistance) {
         super(material);
         setTranslationKey(name);
         setRegistryName(name);
